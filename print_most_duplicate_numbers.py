@@ -15,4 +15,8 @@ while True:
         break
 
 # find the number with the most duplicates
-# find the most repeated number
+if list_numbers:
+    most_duplicable_numbers = max(set(list_numbers), key=list_numbers.count)  # find the most repeated number
+    print("Number with the most duplicates:", most_duplicable_numbers)
+else: 
+    print("No numbers were entered.")
