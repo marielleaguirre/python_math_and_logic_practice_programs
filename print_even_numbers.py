@@ -22,3 +22,6 @@ for i in range(10):
 
         # increment even_numbers by 1
         even_numbers += 1
+
+# print the total of even_numbers
+print("Even Numbers: ", even_numbers)
