@@ -7,3 +7,5 @@
             if the condition is true, print the odd_number
         increment odd_number by 1 to check the next number 
 '''
+# initialize odd_number to 0
+odd_number = 0
