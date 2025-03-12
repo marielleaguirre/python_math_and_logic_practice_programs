@@ -9,4 +9,7 @@
 for number in range(101):
 
     # check if number is even
-    if number % 2 == 0
+    if number % 2 == 0:
+
+        # print all the even numbers
+        print(number)
