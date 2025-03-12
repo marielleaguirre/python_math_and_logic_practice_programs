@@ -5,8 +5,14 @@
 list_numbers = []
 
 # continuously prompts the user to input a number
-# take user input
-# add the number to the list
-# stop asking for input when non-numeric value is entered
+while True:
+    try:
+        # take user input
+        number = float(input("Enter a number: "))
+        list_numbers.append(number)  # add the number to the list
+    except ValueError:
+        # stop asking for input when non-numeric value is entered
+        break
+
 # find the number with the most duplicates
 # find the most repeated number
