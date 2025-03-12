@@ -12,5 +12,9 @@ while True:
     except ValueError:
         # stop asking for input when non-numeric value is entered
         break
-    
+
 # calculate and display the average of the numbers that were entered
+if list_numbers:
+    print("Average:", sum(list_numbers) / len(list_numbers)) 
+else:
+    print("No numbers were entered.")
