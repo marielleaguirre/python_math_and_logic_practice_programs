@@ -12,3 +12,12 @@ odd_number = 0
 
 # use while loop until odd_number is less than or equal to 100
 while odd_number <= 100:
+
+    # check if odd_number divided by 2 has a remainder
+    if odd_number % 2 != 0:
+
+        # if the condition is true, print the odd_number
+        print(odd_number)
+
+    # increment odd_number by 1 to check the next number
+    odd_number += 1
