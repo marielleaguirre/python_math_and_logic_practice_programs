@@ -7,7 +7,11 @@ list_numbers = []
 for i in range(10):
     number = float(input(f"Number {i+1}: "))
     list_numbers.append(number)
-    
+
 # find and display numbers that are not duplicated
-# if the count of the number is 1, it is unique
+unique_numbers = []
+for number in list_numbers:
+    if list_numbers.count(number) == 1:  # if the count of the number is 1, it is unique
+        unique_numbers.append(number)
+
 # display the result
