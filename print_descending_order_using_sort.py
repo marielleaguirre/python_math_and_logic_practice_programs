@@ -2,6 +2,8 @@
 # Display the number from highest to lowest. Clue: sort() function
 
 # initialize an empty list to store user input
+list_numbers = []
+
 # continuously prompts the user to input a number
 # take user input
 # add the number to the list
