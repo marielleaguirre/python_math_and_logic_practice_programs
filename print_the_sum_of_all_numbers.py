@@ -7,3 +7,5 @@
         add number to total_sum
     print the sum of all numbers
 '''
+# initialize total_sum to 0
+total_sum = 0
