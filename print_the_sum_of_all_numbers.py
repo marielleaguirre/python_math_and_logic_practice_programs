@@ -18,3 +18,6 @@ for i in range(10):
 
     # add the number to total_sum
     total_sum += number
+
+# print the sum of all numbers
+print("The sum of all numbers is", total_sum)
