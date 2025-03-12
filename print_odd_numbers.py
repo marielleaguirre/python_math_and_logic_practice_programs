@@ -16,3 +16,9 @@ for i in range(10):
 
     # ask user to input 10 numbers
     number = float(input(f"Number {i+1}: "))
+
+    # use if statement to determine whether a number is odd or not
+    if number % 2 != 0:
+
+        # add 1 to odd_numbers if the number input is an odd number
+        odd_numbers += 1
