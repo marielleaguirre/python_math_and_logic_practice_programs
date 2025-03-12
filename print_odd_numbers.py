@@ -10,3 +10,9 @@
 '''
 # initialize odd_numbers container to 0
 odd_numbers = 0
+
+# use for loop with range 10
+for i in range(10):
+
+    # ask user to input 10 numbers
+    number = float(input(f"Number {i+1}: "))
