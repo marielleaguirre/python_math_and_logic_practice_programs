@@ -14,6 +14,10 @@ while True:
         print("Invalid Input. Now sorting in descending order...")
         # stop asking for input when non-numeric value is entered
         break
-    
+
 # sort and display the list of number if the list is not empty
-# sort the list in descending order
+if list_numbers:
+    list_numbers.sort(reverse=True)  # sort the list in descending order
+    print("Numbers from highest to lowest:", list_numbers)
+else:
+    print("No numbers were entered.")
