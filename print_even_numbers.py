@@ -8,3 +8,5 @@
              increment even_numbers by 1
     print the total of even numbers
 '''
+# initialize even_numbers container to 0
+even_numbers = 0
