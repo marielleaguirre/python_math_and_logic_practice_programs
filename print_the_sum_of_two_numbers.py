@@ -7,3 +7,6 @@
 # ask user to input the first_number and second_number
 first_number = float(input("Enter the first number: "))
 second_number = float(input("Enter the second number: "))
+
+# print the sum of the two numbers
+print("The sum of", first_number, "and", second_number, "is", first_number + second_number)
