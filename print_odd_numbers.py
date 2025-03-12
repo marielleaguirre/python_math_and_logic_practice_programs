@@ -22,3 +22,6 @@ for i in range(10):
 
         # add 1 to odd_numbers if the number input is an odd number
         odd_numbers += 1
+
+# print how many odd numbers are input
+print("Odd numbers:", odd_numbers)
