@@ -7,3 +7,6 @@
 '''
 # use for loop with the range of 101
 for number in range(101):
+
+    # check if number is even
+    if number % 2 == 0
