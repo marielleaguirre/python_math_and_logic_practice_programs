@@ -7,3 +7,6 @@
     loop through numbers from first_number plus 1 to second_number
         print each number between the range
 '''
+# ask the user to input first_number and second_number
+first_number = int(input("Enter the first number: "))
+second_number = int(input("Enter the second number: "))
