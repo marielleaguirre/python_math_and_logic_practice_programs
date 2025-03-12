@@ -9,3 +9,6 @@
 '''
 # initialize odd_number to 0
 odd_number = 0
+
+# use while loop until odd_number is less than or equal to 100
+while odd_number <= 100:
