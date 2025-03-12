@@ -4,7 +4,13 @@
 highest_number = []
 
 # continuously prompts the user to input a number
-# take user input
-# add the number to the list
-# stop asking for input when non-numeric value is entered
+while True:
+    try:
+        # take user input
+        number = float(input("Enter a number: "))
+        highest_number.append(number)  # add the number to the list
+    except ValueError:
+        # stop asking for input when non-numeric value is entered
+        break
+    
 # display the highest number if the list is not empty
