@@ -15,3 +15,4 @@ for number in list_numbers:
         unique_numbers.append(number)
 
 # display the result
+print("Unique numbers:", unique_numbers)
