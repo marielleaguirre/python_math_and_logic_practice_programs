@@ -9,3 +9,12 @@
 '''
 # initialize total_sum to 0
 total_sum = 0
+
+# use for loop with a range of 10
+for i in range(10):
+    
+    # ask the user to input 10 numbers
+    number = float(input(f"Number {i+1}: "))
+
+    # add the number to total_sum
+    total_sum += number
