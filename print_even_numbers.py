@@ -16,3 +16,9 @@ for i in range(10):
 
     # ask the user to input 10 numbers
     number = float(input(f"Number {i+1}: "))
+
+    # if the number input divided by 2 has 0 remainder
+    if number % 2 == 0:
+
+        # increment even_numbers by 1
+        even_numbers += 1
