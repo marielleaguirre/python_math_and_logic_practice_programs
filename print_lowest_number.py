@@ -12,5 +12,9 @@ while True:
     except ValueError:
         # stop asking for input when non-numeric value is entered
         break
-    
+
 # display the lowest umber if the ist is not empty
+if lowest_number:
+    print("Lowest number:", min(lowest_number))
+else:
+    print("No numbers were entered")
