@@ -8,3 +8,9 @@
 # ask the user to input first_number and second_number
 first_number = float(input("Enter the first number: "))
 second_number = float(input("Enter the second number: "))
+
+# print the quotient of the two numbers first
+print(first_number, "/", second_number, "=", first_number / second_number)
+
+# print the remainder of the quotient
+print("Remainder: ", first_number % second_number)
