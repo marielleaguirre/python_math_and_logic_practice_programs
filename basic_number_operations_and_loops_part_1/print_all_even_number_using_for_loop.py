@@ -12,4 +12,4 @@ for number in range(101):
     if number % 2 == 0:
 
         # print all the even numbers
-        print(number)
+        print(number) 
