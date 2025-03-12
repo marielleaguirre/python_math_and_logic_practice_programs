@@ -4,9 +4,9 @@
     initialize total_difference container to 0
     use for loop with range 10
         ask the user to input 10 numbers
-        if the iteration is equals to 0 then
+        if the iteration is equals to 0 then (the first number input)
             add the number input to the total_difference
-        else
+        else (the remaining numbers)
             subtract the number input to the total_difference
     print the total_difference
 '''
@@ -18,3 +18,15 @@ for i in range(10):
 
     # ask the user to input 10 numbers
     number = float(input(f"Number {i+1}: "))
+
+    # use if statement to determine if the iteration is equals to 0 (it is the first number)
+    if i == 0:
+
+        # add the first number input to the total_difference
+        total_difference += number
+
+    # else (the remaining numbers)
+    else:
+
+        # subtract the number input to the total_difference
+        total_difference -= number
