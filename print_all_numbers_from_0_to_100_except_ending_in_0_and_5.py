@@ -7,3 +7,9 @@
 '''
 # use for loop with range of 101
 for number in range(101):
+
+    # check if number is not a multiple of 5
+    if number % 5 != 0:
+
+        # print the number
+        print(number)
