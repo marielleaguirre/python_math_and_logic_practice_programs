@@ -30,3 +30,6 @@ for i in range(10):
 
         # subtract the number input to the total_difference
         total_difference -= number
+
+# print the total_difference
+print("The difference is equals to", total_difference)
