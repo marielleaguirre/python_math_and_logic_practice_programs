@@ -15,3 +15,4 @@ for number in list_numbers:
         duplicate_numbers.append(number)
 
 # display the result
+print("Numbers with duplicates:", duplicate_numbers)
