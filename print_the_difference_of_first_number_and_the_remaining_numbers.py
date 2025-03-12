@@ -12,3 +12,9 @@
 '''
 # initialize total_difference container to 0
 total_difference = 0
+
+# use for loop with range 10
+for i in range(10):
+
+    # ask the user to input 10 numbers
+    number = float(input(f"Number {i+1}: "))
