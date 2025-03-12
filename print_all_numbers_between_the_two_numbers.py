@@ -10,3 +10,9 @@
 # ask the user to input first_number and second_number
 first_number = int(input("Enter the first number: "))
 second_number = int(input("Enter the second number: "))
+
+# check if first_number is greater than second_number
+if first_number > second_number:
+
+    # swap the values of the two numbers to ensure proper order
+    first_number, second_number = second_number, first_number
