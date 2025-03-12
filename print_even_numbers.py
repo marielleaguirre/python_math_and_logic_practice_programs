@@ -10,3 +10,9 @@
 '''
 # initialize even_numbers container to 0
 even_numbers = 0
+
+# use for loop with range 10
+for i in range(10):
+
+    # ask the user to input 10 numbers
+    number = float(input(f"Number {i+1}: "))
