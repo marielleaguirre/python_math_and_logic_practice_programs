@@ -12,5 +12,9 @@ while True:
     except ValueError:
         # stop asking for input when non-numeric value is entered
         break
-    
+
 # display the highest number if the list is not empty
+if highest_number:
+    print("Highest number:", max(highest_number))
+else:
+    print("No number were entered.")
