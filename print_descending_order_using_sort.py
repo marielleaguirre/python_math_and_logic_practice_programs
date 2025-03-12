@@ -5,8 +5,15 @@
 list_numbers = []
 
 # continuously prompts the user to input a number
-# take user input
-# add the number to the list
-# stop asking for input when non-numeric value is entered
+while True:
+    try:
+        # take user input
+        number = float(input("Enter a number: "))  
+        list_numbers.append(number)  # add the number to the list
+    except ValueError:
+        print("Invalid Input. Now sorting in descending order...")
+        # stop asking for input when non-numeric value is entered
+        break
+    
 # sort and display the list of number if the list is not empty
 # sort the list in descending order
