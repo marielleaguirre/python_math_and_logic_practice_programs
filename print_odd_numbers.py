@@ -8,3 +8,5 @@
             add 1 to odd_numbers if the number input is an odd number
     print how many odd numbers are input
 '''
+# initialize odd_numbers container to 0
+odd_numbers = 0
