@@ -16,3 +16,9 @@ if first_number > second_number:
 
     # swap the values of the two numbers to ensure proper order
     first_number, second_number = second_number, first_number
+
+# use for loop, start from first_number + 1 stop to second_number
+for i in range(first_number + 1, second_number):
+
+    # print each number between the range
+    print(i)
