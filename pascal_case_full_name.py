@@ -5,5 +5,7 @@
 # Output: JuanDelaCruz
 
 # ask th user to input their name in incorrect casing
+full_name = input("Enter your full name in incorrect casing: ")
+
 # use title() method to convert input to proper casing then replace() method to remove the spaces
 # print the full name in pascal case
