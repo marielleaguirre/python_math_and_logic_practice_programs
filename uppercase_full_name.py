@@ -11,4 +11,4 @@ full_name = input("Enter your full name: ")
 upper_case_name = full_name.upper()
 
 # print the full name in uppercase
-print("Full name (in uppercase):", upper_case_name)
+print("Full name (in UPPERCASE):", upper_case_name)
