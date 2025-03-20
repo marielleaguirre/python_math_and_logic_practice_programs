@@ -5,5 +5,7 @@
 # Output: Juan Dela Cruz
 
 # ask the user to input their full name in incorrect casing
+full_name = input("Enter your full name in incorrect casing: ")
+
 # use title() method to convert input to title case
 # print the full name in proper casing
