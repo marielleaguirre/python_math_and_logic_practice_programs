@@ -11,3 +11,4 @@ full_name = input("Enter your full name in incorrect casing: ")
 opposite_casing_name = full_name.swapcase()
 
 # print the full name in reverse casing
+print("Full name (reverse casing):", opposite_casing_name)
