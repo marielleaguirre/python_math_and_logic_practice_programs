@@ -5,5 +5,7 @@
 # Output: 14
 
 # ask the user to input their full name
+full_name = input("Enter your full name: ")
+
 # use len() method to count the number of characters in the user input
 # print the number of characters in the full name
