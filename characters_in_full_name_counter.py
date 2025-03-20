@@ -11,3 +11,4 @@ full_name = input("Enter your full name: ")
 characters_count = len(full_name)
 
 # print the number of characters in the full name
+print("Total number of characters in the full name:", characters_count)
