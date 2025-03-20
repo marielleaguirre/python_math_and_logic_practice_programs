@@ -8,4 +8,6 @@
 full_name = input("Enter your full name: ")
 
 # use upper() method to turn all the characters of the full name to uppercase
+upper_case_name = full_name.upper()
+
 # print the full name in uppercase
