@@ -8,4 +8,6 @@
 full_name = input("Enter your full name in incorrect casing: ")
 
 # use title() method to convert input to title case
+proper_casing_name = full_name.title()
+
 # print the full name in proper casing
