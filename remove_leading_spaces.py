@@ -5,5 +5,7 @@
 # Output: Juan Dela Cruz
 
 # ask user to input their full name with several spaces in the beginning
+full_name = input("Enter your full name (with several spaces at the beginning): ")
+
 # use lstrip() method to remove left padded spaces
 # print the full name without the spaces at the beginning
