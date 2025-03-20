@@ -11,3 +11,4 @@ complete_statement = input("Enter a complete statement: ")
 words_in_statement = len(complete_statement.split())
 
 # print the number of words in the statement
+print("Total number of words in the statement:", words_in_statement)
