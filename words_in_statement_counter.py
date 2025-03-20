@@ -8,4 +8,6 @@
 complete_statement = input("Enter a complete statement: ")
 
 # use split() method to split the words in the statement then len() method for counting the number of words
+words_in_statement = len(complete_statement.split())
+
 # print the number of words in the statement
