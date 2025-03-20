@@ -5,5 +5,7 @@
 # Output: 000143
 
 # ask user to input a number from 0 to 1000
+input_number = input("Enter a number from 0 to 1000: ")
+
 # use zfill() method to fill the beginning with zeroes to make a 6-digit format number
 # print the input in 6-digit format
