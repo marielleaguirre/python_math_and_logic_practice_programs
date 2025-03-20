@@ -8,4 +8,6 @@
 full_name = input("Enter your full name: ")
 
 # use lower() method to turn all characters to lowercase
+lower_case_name = full_name.lower()
+
 # print the full name in lowercase
