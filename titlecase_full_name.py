@@ -11,3 +11,4 @@ full_name = input("Enter your full name in incorrect casing: ")
 proper_casing_name = full_name.title()
 
 # print the full name in proper casing
+print("Full name (proper casing):", proper_casing_name)
