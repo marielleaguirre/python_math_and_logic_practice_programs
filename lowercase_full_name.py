@@ -5,5 +5,7 @@
 # Output: juan dela cruz
 
 # ask user to input their full name
+full_name = input("Enter your full name: ")
+
 # use lower() method to turn all characters to lowercase
 # print the full name in lowercase
