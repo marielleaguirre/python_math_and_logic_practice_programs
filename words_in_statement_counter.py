@@ -5,5 +5,7 @@
 # Output: 14
 
 # ask user to input a complete statement
+complete_statement = input("Enter a complete statement: ")
+
 # use split() method to split the words in the statement then len() method for counting the number of words
 # print the number of words in the statement
