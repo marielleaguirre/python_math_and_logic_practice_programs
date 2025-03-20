@@ -8,4 +8,6 @@
 input_number = input("Enter a number from 0 to 1000: ")
 
 # use zfill() method to fill the beginning with zeroes to make a 6-digit format number
+fill_zeros = input_number.zfill(6)
+
 # print the input in 6-digit format
