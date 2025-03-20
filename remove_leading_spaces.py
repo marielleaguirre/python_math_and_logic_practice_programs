@@ -8,4 +8,6 @@
 full_name = input("Enter your full name (with several spaces at the beginning): ")
 
 # use lstrip() method to remove left padded spaces
+remove_leading_spaces = full_name.lstrip()
+
 # print the full name without the spaces at the beginning
